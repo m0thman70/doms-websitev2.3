@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Halve-Z Zola theme - giscus</title>
+    <subtitle>Two-column retro theme for Zola</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://halve-z.netlify.app/tags/giscus/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://halve-z.netlify.app"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-06-09T00:00:00+00:00</updated>
+    <id>https://halve-z.netlify.app/tags/giscus/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Comments</title>
+        <published>2023-06-09T00:00:00+00:00</published>
+        <updated>2023-06-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              -k
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://halve-z.netlify.app/posts/comments/"/>
+        <id>https://halve-z.netlify.app/posts/comments/</id>
+        
+        <content type="html" xml:base="https://halve-z.netlify.app/posts/comments/">&lt;p&gt;&lt;strong&gt;Halve-Z&lt;&#x2F;strong&gt; supports the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;cactus.chat&quot;&gt;Cactus&lt;&#x2F;a&gt; and &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;giscus.app&quot;&gt;Giscus&lt;&#x2F;a&gt; comment systems. Set the &lt;code&gt;extra.comments.system&lt;&#x2F;code&gt; setting to &lt;code&gt;cactus&lt;&#x2F;code&gt; or &lt;code&gt;giscus&lt;&#x2F;code&gt; to enable the corresponding system on the post pages.&lt;&#x2F;p&gt;
+&lt;p&gt;To disable comments on a specific page, set &lt;code&gt;disable_comments&lt;&#x2F;code&gt; to &lt;code&gt;true&lt;&#x2F;code&gt; in the page&#x27;s &lt;strong&gt;front matter&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;pre class=&quot;z-code&quot;&gt;&lt;code&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;+++
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;title = &amp;quot;Information&amp;quot;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;date = 2024-01-01
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;[taxonomies]
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;categories = [&amp;quot;usage&amp;quot;]
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;tags = [&amp;quot;content&amp;quot;, &amp;quot;configuration&amp;quot;]
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;subtitle = &amp;quot;Usage guide&amp;quot;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;disable_comments = true
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-text z-plain&quot;&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+</feed>

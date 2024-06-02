@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Halve-Z Zola theme - style</title>
+    <subtitle>Two-column retro theme for Zola</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://halve-z.netlify.app/tags/style/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://halve-z.netlify.app"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-06-12T00:00:00+00:00</updated>
+    <id>https://halve-z.netlify.app/tags/style/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Markup</title>
+        <published>2023-06-12T00:00:00+00:00</published>
+        <updated>2023-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              -k
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://halve-z.netlify.app/posts/markup/"/>
+        <id>https://halve-z.netlify.app/posts/markup/</id>
+        
+        <content type="html" xml:base="https://halve-z.netlify.app/posts/markup/">&lt;p&gt;Use &lt;strong&gt;Markdown&lt;&#x2F;strong&gt; and &lt;strong&gt;HTML&lt;&#x2F;strong&gt; to style the content:&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;Header_one&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Header_one&quot; aria-label=&quot;Anchor link for: Header_one&quot;&gt;#&lt;&#x2F;a&gt;Header one&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;em&gt;Reserved for post title&#x2F;subtitle.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;Header_two&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Header_two&quot; aria-label=&quot;Anchor link for: Header_two&quot;&gt;#&lt;&#x2F;a&gt;Header two&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;Header_three&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Header_three&quot; aria-label=&quot;Anchor link for: Header_three&quot;&gt;#&lt;&#x2F;a&gt;Header three&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;Header_four&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Header_four&quot; aria-label=&quot;Anchor link for: Header_four&quot;&gt;#&lt;&#x2F;a&gt;Header four&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;Header_five&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Header_five&quot; aria-label=&quot;Anchor link for: Header_five&quot;&gt;#&lt;&#x2F;a&gt;Header five&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;Header_six&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Header_six&quot; aria-label=&quot;Anchor link for: Header_six&quot;&gt;#&lt;&#x2F;a&gt;Header six&lt;&#x2F;h6&gt;
+&lt;h2 id=&quot;Blockquotes&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Blockquotes&quot; aria-label=&quot;Anchor link for: Blockquotes&quot;&gt;#&lt;&#x2F;a&gt;Blockquotes&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You could sit at home, and do like absolutely nothing, and your name goes through like 17 computers a day. 1984? Yeah right, man. That&#x27;s a typo. Orwell is here now. He&#x27;s livin&#x27; large. We have no names, man. No names. We are nameless!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hack the planet!&lt;br&gt;
+&lt;cite&gt;Dade Murphy&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;Tables&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Tables&quot; aria-label=&quot;Anchor link for: Tables&quot;&gt;#&lt;&#x2F;a&gt;Tables&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;OS&lt;&#x2F;th&gt;&lt;th&gt;Base&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;#&quot;&gt;OpenBSD&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;NetBSD 1.0&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;#&quot;&gt;NetBSD&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;4.3BSD&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;#&quot;&gt;FreeBSD&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;4.4BSD-Lite&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;Large_tables&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Large_tables&quot; aria-label=&quot;Anchor link for: Large_tables&quot;&gt;#&lt;&#x2F;a&gt;Large tables&lt;&#x2F;h3&gt;
+&lt;p&gt;Surround large tables with &lt;code&gt;&amp;lt;figure&amp;gt;&amp;lt;&#x2F;figure&amp;gt;&lt;&#x2F;code&gt; so they can scroll horizontally.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Company&lt;&#x2F;strong&gt;&lt;&#x2F;th&gt;&lt;th&gt;Amstrad&lt;&#x2F;th&gt;&lt;th&gt;Apparat&lt;&#x2F;th&gt;&lt;th&gt;Be&lt;&#x2F;th&gt;&lt;th&gt;Calma&lt;&#x2F;th&gt;&lt;th&gt;Datapoint&lt;&#x2F;th&gt;&lt;th&gt;Elxsi&lt;&#x2F;th&gt;&lt;th&gt;Fortune Systems&lt;&#x2F;th&gt;&lt;th&gt;Gateway&lt;&#x2F;th&gt;&lt;th&gt;Noval&lt;&#x2F;th&gt;&lt;th&gt;Jonos&lt;&#x2F;th&gt;&lt;th&gt;Kaypro&lt;&#x2F;th&gt;&lt;th&gt;Lap Power&lt;&#x2F;th&gt;&lt;th&gt;Léanord&lt;&#x2F;th&gt;&lt;th&gt;NeXT&lt;&#x2F;th&gt;&lt;th&gt;Norsk Data&lt;&#x2F;th&gt;&lt;th&gt;Ohio Scientific&lt;&#x2F;th&gt;&lt;th&gt;Omnidata&lt;&#x2F;th&gt;&lt;th&gt;OCC&lt;&#x2F;th&gt;&lt;th&gt;Psystar&lt;&#x2F;th&gt;&lt;th&gt;Symbolics&lt;&#x2F;th&gt;&lt;th&gt;Terak&lt;&#x2F;th&gt;&lt;th&gt;TRW&lt;&#x2F;th&gt;&lt;th&gt;Wicat Systems&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Defunct&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;2010&lt;&#x2F;td&gt;&lt;td&gt;1988&lt;&#x2F;td&gt;&lt;td&gt;2001&lt;&#x2F;td&gt;&lt;td&gt;1988&lt;&#x2F;td&gt;&lt;td&gt;2000&lt;&#x2F;td&gt;&lt;td&gt;1989&lt;&#x2F;td&gt;&lt;td&gt;2011&lt;&#x2F;td&gt;&lt;td&gt;2007&lt;&#x2F;td&gt;&lt;td&gt;1979&lt;&#x2F;td&gt;&lt;td&gt;1992&lt;&#x2F;td&gt;&lt;td&gt;1992&lt;&#x2F;td&gt;&lt;td&gt;2000&lt;&#x2F;td&gt;&lt;td&gt;1989&lt;&#x2F;td&gt;&lt;td&gt;1997&lt;&#x2F;td&gt;&lt;td&gt;1992&lt;&#x2F;td&gt;&lt;td&gt;1980&lt;&#x2F;td&gt;&lt;td&gt;1988&lt;&#x2F;td&gt;&lt;td&gt;1985&lt;&#x2F;td&gt;&lt;td&gt;2012&lt;&#x2F;td&gt;&lt;td&gt;1996&lt;&#x2F;td&gt;&lt;td&gt;1985&lt;&#x2F;td&gt;&lt;td&gt;2002&lt;&#x2F;td&gt;&lt;td&gt;1992&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;Code_blocks&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Code_blocks&quot; aria-label=&quot;Anchor link for: Code_blocks&quot;&gt;#&lt;&#x2F;a&gt;Code blocks&lt;&#x2F;h2&gt;
+&lt;pre data-lang=&quot;c&quot; class=&quot;language-c z-code&quot;&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;z-source z-c&quot;&gt;&lt;span class=&quot;z-meta z-preprocessor z-include z-c&quot;&gt;&lt;span class=&quot;z-keyword z-control z-import z-include z-c&quot;&gt;#include&lt;&#x2F;span&gt; &lt;span class=&quot;z-string z-quoted z-other z-lt-gt z-include z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-c&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;stdio.h&lt;span class=&quot;z-punctuation z-definition z-string z-end z-c&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c&quot;&gt;
+&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c&quot;&gt;&lt;span class=&quot;z-storage z-type z-c&quot;&gt;int&lt;&#x2F;span&gt; &lt;span class=&quot;z-meta z-function z-c&quot;&gt;&lt;span class=&quot;z-entity z-name z-function z-c&quot;&gt;main&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-parameters z-c&quot;&gt;&lt;span class=&quot;z-meta z-group z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-begin z-c&quot;&gt;(&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-parameters z-c&quot;&gt;&lt;span class=&quot;z-meta z-group z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-end z-c&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-c&quot;&gt; &lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-c&quot;&gt;&lt;span class=&quot;z-meta z-block z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-begin z-c&quot;&gt;{&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-c&quot;&gt;&lt;span class=&quot;z-meta z-block z-c&quot;&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c&quot;&gt;&lt;span class=&quot;z-meta z-function z-c&quot;&gt;&lt;span class=&quot;z-meta z-block z-c&quot;&gt;  &lt;span class=&quot;z-meta z-function-call z-c&quot;&gt;&lt;span class=&quot;z-support z-function z-C99 z-c&quot;&gt;printf&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-group z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-begin z-c&quot;&gt;(&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-c&quot;&gt;&lt;span class=&quot;z-meta z-group z-c&quot;&gt;&lt;span class=&quot;z-string z-quoted z-double z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-begin z-c&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;Hello, World!&lt;span class=&quot;z-constant z-character z-escape z-c&quot;&gt;\n&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-definition z-string z-end z-c&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function-call z-c&quot;&gt;&lt;span class=&quot;z-meta z-group z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-group z-end z-c&quot;&gt;)&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-c&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c&quot;&gt;&lt;span class=&quot;z-meta z-function z-c&quot;&gt;&lt;span class=&quot;z-meta z-block z-c&quot;&gt;  &lt;span class=&quot;z-keyword z-control z-flow z-return z-c&quot;&gt;return&lt;&#x2F;span&gt; &lt;span class=&quot;z-constant z-numeric z-integer z-decimal z-c&quot;&gt;0&lt;&#x2F;span&gt;&lt;span class=&quot;z-punctuation z-terminator z-c&quot;&gt;;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-source z-c&quot;&gt;&lt;span class=&quot;z-meta z-function z-c&quot;&gt;&lt;span class=&quot;z-meta z-block z-c&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;span class=&quot;z-meta z-function z-c&quot;&gt;&lt;span class=&quot;z-meta z-block z-c&quot;&gt;&lt;span class=&quot;z-punctuation z-section z-block z-end z-c&quot;&gt;}&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;&lt;&#x2F;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;Unordered_Lists_(Nested)&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Unordered_Lists_(Nested)&quot; aria-label=&quot;Anchor link for: Unordered_Lists_(Nested)&quot;&gt;#&lt;&#x2F;a&gt;Unordered Lists (Nested)&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;List item one 
+&lt;ul&gt;
+&lt;li&gt;List item one 
+&lt;ul&gt;
+&lt;li&gt;List item one&lt;&#x2F;li&gt;
+&lt;li&gt;List item two&lt;&#x2F;li&gt;
+&lt;li&gt;List item three&lt;&#x2F;li&gt;
+&lt;li&gt;List item four&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;List item two&lt;&#x2F;li&gt;
+&lt;li&gt;List item three&lt;&#x2F;li&gt;
+&lt;li&gt;List item four&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;List item two&lt;&#x2F;li&gt;
+&lt;li&gt;List item three&lt;&#x2F;li&gt;
+&lt;li&gt;List item four&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;Ordered_List_(Nested)&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Ordered_List_(Nested)&quot; aria-label=&quot;Anchor link for: Ordered_List_(Nested)&quot;&gt;#&lt;&#x2F;a&gt;Ordered List (Nested)&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;List item one 
+&lt;ol&gt;
+&lt;li&gt;List item one 
+&lt;ol&gt;
+&lt;li&gt;List item one&lt;&#x2F;li&gt;
+&lt;li&gt;List item two&lt;&#x2F;li&gt;
+&lt;li&gt;List item three&lt;&#x2F;li&gt;
+&lt;li&gt;List item four&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;List item two&lt;&#x2F;li&gt;
+&lt;li&gt;List item three&lt;&#x2F;li&gt;
+&lt;li&gt;List item four&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;List item two&lt;&#x2F;li&gt;
+&lt;li&gt;List item three&lt;&#x2F;li&gt;
+&lt;li&gt;List item four&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;HTML_Tags&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#HTML_Tags&quot; aria-label=&quot;Anchor link for: HTML_Tags&quot;&gt;#&lt;&#x2F;a&gt;HTML Tags&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;Buttons&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Buttons&quot; aria-label=&quot;Anchor link for: Buttons&quot;&gt;#&lt;&#x2F;a&gt;Buttons&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;&#x2F;a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn_info&quot;&gt;Info Button&lt;&#x2F;a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn_warning&quot;&gt;Warning Button&lt;&#x2F;a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn_success&quot;&gt;Success Button&lt;&#x2F;a&gt;
+&lt;a href=&quot;#&quot; class=&quot;btn btn_danger&quot;&gt;Danger Button&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Definition_Lists&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Definition_Lists&quot; aria-label=&quot;Anchor link for: Definition_Lists&quot;&gt;#&lt;&#x2F;a&gt;Definition Lists&lt;&#x2F;h3&gt;
+&lt;dl&gt;
+  &lt;dt&gt;Nmap&lt;&#x2F;dt&gt;
+  &lt;dd&gt;
+    Nmap is a tool for network discovery and security scanning.
+  &lt;&#x2F;dd&gt;
+&lt;&#x2F;dl&gt;
+&lt;h3 id=&quot;Notices&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Notices&quot; aria-label=&quot;Anchor link for: Notices&quot;&gt;#&lt;&#x2F;a&gt;Notices&lt;&#x2F;h3&gt;
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Attention! &lt;a href=&quot;#&quot;&gt;Link!&lt;&#x2F;a&gt; &lt;&#x2F;strong&gt;This is &lt;strong&gt;notice&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p class=&quot;notice_info&quot;&gt;&lt;strong&gt;Attention!&lt;&#x2F;strong&gt; This is &lt;code&gt;info&lt;&#x2F;code&gt; &lt;strong&gt;notice&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p class=&quot;notice_warning&quot;&gt;&lt;strong&gt;Attention!&lt;&#x2F;strong&gt; This is &lt;code&gt;warning&lt;&#x2F;code&gt; &lt;strong&gt;notice&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p class=&quot;notice_success&quot;&gt;&lt;strong&gt;Attention!&lt;&#x2F;strong&gt; This is &lt;code&gt;success&lt;&#x2F;code&gt; &lt;strong&gt;notice&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p class=&quot;notice_danger&quot;&gt;&lt;strong&gt;Attention!&lt;&#x2F;strong&gt; This is &lt;code&gt;danger&lt;&#x2F;code&gt; &lt;strong&gt;notice&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Address_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Address_Tag&quot; aria-label=&quot;Anchor link for: Address_Tag&quot;&gt;#&lt;&#x2F;a&gt;Address Tag&lt;&#x2F;h3&gt;
+&lt;address&gt;
+  3980 Broadway Street&lt;br &#x2F;&gt; Boulder, CO 80304&lt;br&gt; United States
+&lt;&#x2F;address&gt;
+&lt;h3 id=&quot;Anchor_Tag_(aka._Link)&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Anchor_Tag_(aka._Link)&quot; aria-label=&quot;Anchor link for: Anchor_Tag_(aka._Link)&quot;&gt;#&lt;&#x2F;a&gt;Anchor Tag (aka. Link)&lt;&#x2F;h3&gt;
+&lt;p&gt;This is an example of a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; title=&quot;Zola&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;link&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Abbreviation_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Abbreviation_Tag&quot; aria-label=&quot;Anchor link for: Abbreviation_Tag&quot;&gt;#&lt;&#x2F;a&gt;Abbreviation Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;abbr title=&quot;Graphics Interchange Format&quot;&gt;GIF&lt;&#x2F;abbr&gt; is a bitmap image format.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Cite_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Cite_Tag&quot; aria-label=&quot;Anchor link for: Cite_Tag&quot;&gt;#&lt;&#x2F;a&gt;Cite Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;&amp;quot;Code is poetry.&amp;quot; --- &lt;cite&gt;Automattic&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Code_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Code_Tag&quot; aria-label=&quot;Anchor link for: Code_Tag&quot;&gt;#&lt;&#x2F;a&gt;Code Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;You will learn later on in these tests that &lt;code&gt;word-wrap: break-word;&lt;&#x2F;code&gt; will be your best friend.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Strike_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Strike_Tag&quot; aria-label=&quot;Anchor link for: Strike_Tag&quot;&gt;#&lt;&#x2F;a&gt;Strike Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;This tag will let you &lt;strike&gt;strikeout text&lt;&#x2F;strike&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Emphasize_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Emphasize_Tag&quot; aria-label=&quot;Anchor link for: Emphasize_Tag&quot;&gt;#&lt;&#x2F;a&gt;Emphasize Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;The emphasize tag should &lt;em&gt;italicize&lt;&#x2F;em&gt; text.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Insert_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Insert_Tag&quot; aria-label=&quot;Anchor link for: Insert_Tag&quot;&gt;#&lt;&#x2F;a&gt;Insert Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;This tag should denote &lt;ins&gt;inserted&lt;&#x2F;ins&gt; text.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Keyboard_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Keyboard_Tag&quot; aria-label=&quot;Anchor link for: Keyboard_Tag&quot;&gt;#&lt;&#x2F;a&gt;Keyboard Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;This scarcely known &lt;kbd&gt;tag&lt;&#x2F;kbd&gt; emulates keyboard text.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Quote_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Quote_Tag&quot; aria-label=&quot;Anchor link for: Quote_Tag&quot;&gt;#&lt;&#x2F;a&gt;Quote Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;q&gt;We have just gotten a wake-up call from the Nintendo Generation.&lt;&#x2F;q&gt; –Cereal Killer&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Strong_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Strong_Tag&quot; aria-label=&quot;Anchor link for: Strong_Tag&quot;&gt;#&lt;&#x2F;a&gt;Strong Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;This tag shows &lt;strong&gt;bold text&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Subscript_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Subscript_Tag&quot; aria-label=&quot;Anchor link for: Subscript_Tag&quot;&gt;#&lt;&#x2F;a&gt;Subscript Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;Getting our science styling on with H&lt;sub&gt;2&lt;&#x2F;sub&gt;O, which should push the &amp;quot;2&amp;quot; down.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Superscript_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Superscript_Tag&quot; aria-label=&quot;Anchor link for: Superscript_Tag&quot;&gt;#&lt;&#x2F;a&gt;Superscript Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;Still sticking with science and Isaac Newton&#x27;s E = MC&lt;sup&gt;2&lt;&#x2F;sup&gt;, which should lift the &amp;quot;2&amp;quot; up.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;Variable_Tag&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Variable_Tag&quot; aria-label=&quot;Anchor link for: Variable_Tag&quot;&gt;#&lt;&#x2F;a&gt;Variable Tag&lt;&#x2F;h3&gt;
+&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;&#x2F;var&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
