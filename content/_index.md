@@ -4,6 +4,6 @@ template = "index.html"
 
 # Info
 
-[Halve-Z](https://github.com/charlesrocket/halve-z) is a retro two-column theme for [Zola](https://github.com/getzola/zola). It features search, taxonomies, automatic color schemes, project cards, and a comment system.
+I am Dom, a 19 year old computer engineering student at degree level.
 
-The [documentation](https://github.com/charlesrocket/halve-z/blob/trunk/README.md) contains the full set of features and installation manuals.
+I genuinely dont know how to make a website lol
