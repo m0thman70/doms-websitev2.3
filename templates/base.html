@@ -1,0 +1,89 @@
+{%- import "macros/macros.html" as macros %}
+{% set categories = get_taxonomy(kind="categories") %}
+{% set tags = get_taxonomy(kind="tags") %}
+{% set active_path = current_path | default(value="none") %}
+
+<!DOCTYPE html>
+<html lang="{{ config.default_language }}">
+  <head>
+    {%- include "partials/head.html" %}
+  </head>
+  {% block body %}<body id="posts">{% endblock body %}
+    <div class="block-left">
+      <div class="content">
+        {% if active_path != "/" %}<a href="/" class="logo"><img src="{{ "/" ~ config.extra.logo }}" alt="logo" width="64" height="64"></a>{% endif %}
+  {% block left %}
+        <h1 class="section-title">{%- block page_title %}{% if page.title %}{{ page.title }}{% elif section.title %}{{ section.title }}{% elif term.name %}{{ '#' ~ term.name }}{% elif taxonomy.name %}{{ taxonomy.name | title }}{% endif %}{% endblock page_title %}</h1>
+  {% endblock left %}
+      </div>
+    </div>
+    <div class="block-right">
+      {% if config.build_search_index == true %}
+      <script type="text/javascript" src="/elasticlunr.min.js" async></script>
+      <script type="text/javascript" src="/search.js" defer></script>
+      <nav class="search-container" id="search-nav">
+        <input id="search" type="search" placeholder="Search" aria-label="Search">
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </nav>
+      {% endif %}
+      <nav class="nav-bar" role="navigation">
+        <ul class="nav-menu">
+        {% block nav %}
+          <li{% if active_path == "/" %} class="nav-active"{% endif %}><a href="{{ get_url(path="@/_index.md") }}">Home</a></li>
+          {% if config.extra.menu.posts == true %}
+          <li{% if active_path is starting_with("/posts/") or active_path is starting_with("/tags/") or active_path is starting_with("/categories/")%} class="nav-active"{% endif %}><a href="{{ get_url(path="@/posts/_index.md") }}" aria-haspopup="true">Posts</a>
+            <ul class="dropdown" aria-label="submenu">
+              <li><a href="{{ get_url(path="@/posts/_index.md") }}">Index</a></li>
+              <li><a href="{{ tags.permalink | safe }}">Tags</a></li>
+              <li><a href="{{ categories.permalink | safe }}">Categories</a></li>
+            </ul>
+          </li>
+          {% endif %}
+          {% for link in config.extra.menu.links %}
+          <li{% if page %}{% if config.base_url ~ current_path == get_url(path=link.url) %} class="nav-active"{% endif %}{% endif %}><a href="{{ get_url(path=link.url) }}">{{ link.name }}</a></li>
+          {% endfor %}
+        {% endblock nav %}
+        </ul>
+      </nav>
+  {% block right %}
+      <div class="content">
+        {% block date %}<div class="date-highlight">{% if page.date %}{{ page.date | date(format="%d %b %Y") }}{% else %}x{% endif %}</div>{% endblock date %}
+        {% block content %}{% endblock content %}
+      {% block paginator %}
+      {% if paginator.previous or paginator.next %}
+      <nav class="pagination">
+        {% if paginator.previous %}
+        <a class="pagination_pager" href="{{ paginator.previous }}">prev</a>
+        {% else %}
+        <a href="#" class="pagination_pager disabled">prev</a>
+        {% endif %}
+        {% if paginator.next %}
+        <a class="pagination_pager" href="{{ paginator.next }}">next</a>
+        {% else %}
+        <a href="#" class="pagination_pager disabled" >next</a>
+        {% endif %}
+      </nav>
+      {% endif %}
+      {% endblock paginator %}
+      </div>
+  {% endblock right %}
+  {% block footer %}
+    {% if config.extra.footer.enabled == true %}
+    <section class="footer-content">
+      {% set current_year = now() | date(format="%Y") %}
+      <footer id="footer-block">
+        {% if config.extra.footer.copyright == true %}
+          <p><b>©</b> {{ current_year }} <b>{{ config.author }}</b></p>
+        {% endif %}
+        {% if config.extra.footer.stack == true %}
+          <p>Powered by <a href="https://www.getzola.org" target="_blank">Zola</a> & <a href="https://halve-z.netlify.app" target="_blank">Halve-Z</a></p>
+        {% endif %}
+      </footer>
+    </section>
+    {% endif %}
+  {% endblock footer %}
+    </div>
+  </body>
+</html>
