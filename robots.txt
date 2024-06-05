@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://m0thman70.github.io/doms-websitev2/sitemap.xml

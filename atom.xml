@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Dom</title>
+    <subtitle>I still dont know how to make a website</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://m0thman70.github.io/doms-websitev2/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://m0thman70.github.io/doms-websitev2/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-06-03T00:00:00+00:00</updated>
+    <id>https://m0thman70.github.io/doms-websitev2/atom.xml</id>
+    <entry xml:lang="en">
+        <title>New Website 👀</title>
+        <published>2024-06-03T00:00:00+00:00</published>
+        <updated>2024-06-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              -k
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://m0thman70.github.io/doms-websitev2/posts/first_post/"/>
+        <id>https://m0thman70.github.io/doms-websitev2/posts/first_post/</id>
+        
+        <content type="html" xml:base="https://m0thman70.github.io/doms-websitev2/posts/first_post/">&lt;h1 id=&quot;Welcome&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#Welcome&quot; aria-label=&quot;Anchor link for: Welcome&quot;&gt;#&lt;&#x2F;a&gt;Welcome&lt;&#x2F;h1&gt;
+&lt;h3 id=&quot;This_is_the_new_site!&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#This_is_the_new_site!&quot; aria-label=&quot;Anchor link for: This_is_the_new_site!&quot;&gt;#&lt;&#x2F;a&gt;This is the new site!&lt;&#x2F;h3&gt;
+&lt;p&gt;I know I know it aint up to scratch and is very basic but the point is that it looks good and that it works. Not only that it is also now built with zola instead of hugo, there no reason for the decision, I was simply very bored.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;WIP&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#WIP&quot; aria-label=&quot;Anchor link for: WIP&quot;&gt;#&lt;&#x2F;a&gt;WIP&lt;&#x2F;h3&gt;
+&lt;p&gt;get a codeberg account lul&lt;&#x2F;p&gt;
+&lt;p&gt;Get a better URL lol&lt;&#x2F;p&gt;
+&lt;p&gt;Anyway, thats all for this new website brought to you by Zola and the halve-z zola theme, take a look around enjoy the view.&lt;&#x2F;p&gt;
+&lt;p&gt;also thanks welpo for figuring out what was wrong&lt;&#x2F;p&gt;
+&lt;p&gt;~ Dom&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
